@@ -1,0 +1,23 @@
+# Belajar SQL*PLus untuk pemula
+
+# Menampilkan data pada kolom tertentu
+#####################################
+SELECT <NAMA_KOLOM> FROM <TABLE>
+#####################################
+
+contoh :
+
+menampilkan banyak kolom
+#####################################
+select EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO from EMP
+#####################################
+atau
+menampilkan kolom ENAME pada table EMP
+#####################################
+select ENAME from EMP
+#####################################
+atau
+menampilkan kolom  ENAME,JOB,SAL pada table EMP
+#####################################
+select ENAME,JOB,SAL from EMP
+#####################################
