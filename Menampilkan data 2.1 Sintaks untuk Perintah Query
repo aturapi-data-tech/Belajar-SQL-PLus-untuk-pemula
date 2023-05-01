@@ -1,9 +1,12 @@
 # Belajar SQL*PLus untuk pemula
 
 # Menampilkan data
-
+#####################################
 SELECT <NAMA_KOLOM> FROM <TABLE>
+#####################################
 
-contoh
+contoh :
 
+#####################################
 select EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO from EMP
+#####################################
