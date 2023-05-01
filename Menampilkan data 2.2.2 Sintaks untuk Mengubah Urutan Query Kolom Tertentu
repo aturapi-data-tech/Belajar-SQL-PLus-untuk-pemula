@@ -1,0 +1,20 @@
+# Belajar SQL*PLus untuk pemula
+
+# Menampilkan data pada kolom tertentu
+#####################################
+SELECT <NAMA_KOLOM> FROM <TABLE>
+#####################################
+
+contoh :
+
+menampilkan banyak kolom
+#####################################
+select EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO from EMP
+#####################################
+
+mengubah urutan kolom
+#####################################
+select ENAME,JOB,MGR,SAL,HIREDATE,COMM,DEPTNO,EMPNO from EMP
+#####################################
+
+kita dapat mengubah urutan kolom pada perintah SQL sesuai dengan urutan kolom pada perintah yang kita berikan
