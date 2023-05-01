@@ -1,6 +1,6 @@
-#Belajar SQL*PLus untuk pemula
+# Belajar SQL*PLus untuk pemula
 
-#Menampilkan data
+# Menampilkan data
 
 SELECT <NAMA_KOLOM> FROM <TABLE>
 
