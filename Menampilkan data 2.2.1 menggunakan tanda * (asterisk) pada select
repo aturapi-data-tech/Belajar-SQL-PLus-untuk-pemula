@@ -1,0 +1,14 @@
+# Belajar SQL*PLus untuk pemula
+
+# Menampilkan data
+#####################################
+SELECT <NAMA_KOLOM> FROM <TABLE>
+#####################################
+
+contoh :
+
+#####################################
+select * from EMP
+#####################################
+
+Tanda * atau (asterisk) pada select adalah untuk menampilkan semua data pada semua kolom yang ada dalam table
