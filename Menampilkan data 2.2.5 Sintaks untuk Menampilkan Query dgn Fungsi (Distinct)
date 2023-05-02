@@ -1,0 +1,31 @@
+# Belajar SQL*PLus untuk pemula
+
+# Menampilkan data pada kolom tertentu
+#####################################
+SELECT distinct <NAMA_KOLOM> FROM <TABLE>
+#####################################
+or
+#####################################
+SELECT <NAMA_KOLOM> FROM <TABLE> GROUP BY <NAMA_KOLOM>
+#####################################
+
+contoh :
+
+
+#####################################
+select distinct SAL from EMP from EMP 
+#####################################
+
+kita dapat menampilkan kolom dengan mengelompokan data yang nilainya sama dan menampilkan nya 1 X
+
+#####################################
+select SAL from EMP from EMP GROUP BY SAL
+#####################################
+or
+#####################################
+select SAL,ENAME from EMP from EMP GROUP BY SAL,ENAME
+#####################################
+
+
+kita dapat menampilkan kolom dengan mengelompokan data yang nilainya sama dan menampilkan nya 1 X dgn menggunakan "group by"
+

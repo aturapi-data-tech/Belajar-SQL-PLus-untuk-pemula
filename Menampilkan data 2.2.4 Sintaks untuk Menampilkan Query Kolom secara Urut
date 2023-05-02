@@ -1,0 +1,36 @@
+# Belajar SQL*PLus untuk pemula
+
+# Menampilkan data pada kolom tertentu
+#####################################
+SELECT <NAMA_KOLOM> FROM <TABLE> ORDER BY <NAMA_KOLOM>
+#####################################
+
+#####################################
+SELECT <NAMA_KOLOM> FROM <TABLE> ORDER BY <NAMA_KOLOM> DESC
+#####################################
+
+contoh :
+
+
+#####################################
+select ENAME,JOB,MGR,SAL from EMP from EMP ORDER BY ENAME
+#####################################
+
+#####################################
+select ENAME,JOB,MGR,SAL from EMP from EMP ORDER BY ENAME,SAL
+#####################################
+
+kita dapat menampilkan kolom tertentu pada perintah SQL sesuai dengan kolom pada perintah yang kita berikan dan mengurutkan sesuai urutan kolom
+
+#####################################
+select ENAME,JOB,MGR,SAL from EMP from EMP ORDER BY ENAME DESC
+#####################################
+
+#####################################
+select ENAME,JOB,MGR,SAL from EMP from EMP ORDER BY ENAME DESC,SAL DESC
+#####################################
+
+#####################################
+select ENAME,JOB,MGR,SAL from EMP from EMP ORDER BY ENAME DESC,SAL
+#####################################
+kita dapat menampilkan kolom tertentu pada perintah SQL sesuai dengan kolom pada perintah yang kita berikan dan mengurutkan sesuai urutan kolom terbalik atau mix
