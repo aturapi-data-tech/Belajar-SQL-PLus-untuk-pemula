@@ -1,0 +1,24 @@
+# Belajar SQL*PLus untuk pemula
+
+# Menampilkan data pada kolom tertentu
+#####################################
+SELECT distinct <NAMA_KOLOM> FROM <TABLE> WHERE <KONDISI>
+#####################################
+
+number
+#####################################
+select EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO from EMP where SAL = 10000 and JOB = 'EMP'
+#####################################
+#####################################
+select EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO from EMP where ENAME like '%ADI'
+#####################################
+#####################################
+select EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO from EMP where ENAME like 'ADI%'
+#####################################
+
+
+= > < => =<
+
+and
+or
+like

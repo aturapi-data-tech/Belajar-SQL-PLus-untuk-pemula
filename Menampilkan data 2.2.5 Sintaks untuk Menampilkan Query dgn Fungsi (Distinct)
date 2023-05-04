@@ -28,4 +28,5 @@ select SAL,ENAME from EMP from EMP GROUP BY SAL,ENAME
 
 
 kita dapat menampilkan kolom dengan mengelompokan data yang nilainya sama dan menampilkan nya 1 X dgn menggunakan "group by"
+untuk group by kita akan pelajari di sesi yang berbeda untuk penggunaan perintah sum avg min max 
 
